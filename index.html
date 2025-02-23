@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>File For Sale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <!-- Font Awsome Kit -->
+    <script src="https://kit.fontawesome.com/6e565221c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- main_hero start  -->
+
+    <section class="main_hero">
+        <div class="container">
+            <div class="nav_inner d-lg-block d-none">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mainLogo_coontent">
+                            <div class="main_logo">
+                                <img src="assets/img/main_logo.svg" alt="">
+                            </div>
+                            <form class="file_upload">
+                                <input type="file" id="fileInput" style="display:none;">
+                                <button type="button" onclick="document.getElementById('fileInput').click()"><img
+                                        src="assets/img/file_upload.svg" alt="">
+                                    <h6>upload files</h6>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="btnz_wrap">
+                            <a href="" class="flex_align main_btn signIn_btn">Sign in</a>
+                            <a href="" class="flex_align main_btn">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg d-lg-none nav_inner">
+                <div class="mainLogo_coontent">
+                    <div class="main_logo d-sm-block d-none">
+                        <img src="assets/img/main_logo.svg" alt="">
+                    </div>
+                    <div class="main_logo d-sm-none">
+                        <img src="assets/img/favicon.svg" alt="">
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="assets/img/hamburger.svg" alt=""></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div class="btnz_wrap">
+                                <a href="" class="flex_align main_btn signIn_btn">Sign in</a>
+                                <a href="" class="flex_align main_btn">Register</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <div class="hero_content">
+                        <h1>
+                            the marketplace for <br> <span> digital downloads</span>
+                        </h1>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porttitor urna. In gravida,
+                            orci vel pretium lobortis.</h6>
+                        <div class="input_form">
+                            <input type="text" class="form-control"
+                                placeholder="Enter File name, Hash, mime, description....">
+                            <a href="" class="flex_align main_btn d-sm-flex d-none">search</a>
+                            <a href="" class="flex_align main_btn d-sm-none"><img src="assets/img/search_icon.svg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero_img">
+                        <img src="assets/img/hero_image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main_hero end -->
+    <!-- selling platforms start  -->
+    <section class="selling_platforms">
+        <div class="container">
+            <h5>automated <span>selling platform</span> for digital downloads</h5>
+            <h6>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porttitor urna. In gravida, orci vel
+                pretium lobortis.
+            </h6>
+            <div class="selling_inner">
+                <div class="selling_box">
+                    <div class="selling_img">
+                        <img src="assets/img/platform1.svg" alt="">
+                    </div>
+                    <h4>Frictionless payment</h4>
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porttitor urna. In gravida,
+                        orci vel pretium lobortis.</h6>
+                </div>
+                <div class="selling_box">
+                    <div class="selling_img">
+                        <img src="assets/img/platform2.svg" alt="">
+                    </div>
+                    <h4>instant delivery</h4>
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porttitor urna. In gravida,
+                        orci vel pretium lobortis.</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- selling platforms end -->
+    <!-- register seller start  -->
+    <section class="register_seller">
+        <div class="container">
+            <h5>We’ve Got:</h5>
+            <div class="registerSeller_box">
+                <h1 class="get_counter" data-countto="10K" data-duration="1000">10K</h1>
+                <p>registered sellers</p>
+            </div>
+            <div class="registerSeller_box">
+                <h1 class="get_counter" data-countto="1M" data-duration="1000">1M</h1>
+                <p>files for sales</p>
+            </div>
+        </div>
+    </section>
+    <!-- register seller end -->
+    <!-- browse feature start  -->
+    <section class="browse_feature">
+        <div class="container">
+            <div class="browse_featureBg">
+                <img src="assets/img/browse_featureBG.svg" alt="">
+            </div>
+            <h5 class="text-center">browse <span> featured</span> searches</h5>
+            <div class="browse_innner">
+                <div class="browse_content">
+                    <div class="browse_box flex_align">
+                        <p>images</p>
+                        <div class="browse_img">
+                            <div class="green_box"></div>
+                            <img src="assets/img/search1.svg" alt="" class="search_img">
+                            <img src="assets/img/search_naviLeft.svg" alt="" class="navi_img navi_Top">
+                        </div>
+                    </div>
+                    <div class="browse_box flex_align">
+                        <p>videos</p>
+                        <div class="browse_img">
+                            <div class="green_box"></div>
+                            <img src="assets/img/search2.svg" alt="" class="search_img">
+                            <img src="assets/img/navi_straight.svg" alt="" class="navi_img">
+                        </div>
+                    </div>
+                    <div class="browse_box flex_align">
+                        <p>executable files</p>
+                        <div class="browse_img">
+                            <div class="green_box"></div>
+                            <img src="assets/img/search3.svg" alt="" class="search_img">
+                            <img src="assets/img/naviLeft_bottom.svg" alt="" class="navi_img navi_Bottom">
+                        </div>
+                    </div>
+                </div>
+                <div class="laptop_img">
+                    <img src="assets/img/laptop_img.png" alt="">
+                </div>
+                <div class="browse_content">
+                    <div class="browse_box browse__box flex_align">
+                        <p>office documents</p>
+                        <div class="browse_img">
+                            <div class="green_box"></div>
+                            <img src="assets/img/search4.svg" alt="" class="search_img">
+                            <img src="assets/img/search_naviRight.svg" alt="" class="navi_img navi_Top">
+                        </div>
+                    </div>
+                    <div class="browse_box browse__box flex_align">
+                        <p>source code</p>
+                        <div class="browse_img">
+                            <div class="green_box"></div>
+                            <img src="assets/img/search5.svg" alt="" class="search_img">
+                            <img src="assets/img/navi_straight.svg" alt="" class="navi_img">
+                        </div>
+                    </div>
+                    <div class="browse_box browse__box flex_align">
+                        <p>highest rated</p>
+                        <div class="browse_img">
+                            <div class="green_box"></div>
+                            <img src="assets/img/search6.svg" alt="" class="search_img">
+                            <img src="assets/img/naviRight_bottom.svg" alt="" class="navi_img navi_Bottom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- browse feature end -->
+
+    <section class="social_platforms">
+        <div class="container">
+            <h5 class="text-center">what others <span>users</span> are saying</h5>
+            <div class="Social_Img">
+                <img src="assets/img/Social_TopImg.svg" alt="">
+                <img src="assets/img/Social_BottomImg.svg" alt="">
+            </div>
+            <div class="position-relative">
+                <div class="arrows_wrap">
+                    <div class="slick-prev"><i class="fas fa-arrow-left"></i></div>
+                    <div class="slick-next"><i class="fas fa-arrow-right"></i></div>
+                </div>
+                <div class="social_slick">
+                    <div class="social_box">
+                        <div class="profile_row">
+                            <div class="d-flex gap-2 align-items-center ms-2">
+                                <img src="assets/img/dp_img.svg" alt="" class="dp_img">
+                                <div>
+                                    <h6>joseph smith</h6>
+                                    <p>@josephsmith</p>
+                                </div>
+                            </div>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social_detail">
+                            Lorem ipsum dolor sit amet, <a href=""> @consectetur</a> adipiscing elit. Ut eget porttitor
+                            urna. In gravida, orci vel pretium lobortis, lorem purus auctor mauris, in sollicitudin orci
+                            enim vel enim. Integer consequat ex id tortor molestie accumsan. Quisque egestas, mi sed
+                            porta auctor, turpis sapien dignissim purus.
+                        </div>
+                        <div class="social_footer">
+                            <span> 10:02 PM - JAN 2, 2023</span>
+                            <span><img src="assets/img/icon_share.svg" alt=""> open tweet</span>
+                        </div>
+                    </div>
+                    <div class="social_box">
+                        <div class="profile_row">
+                            <div class="d-flex gap-2 align-items-center ms-2">
+                                <img src="assets/img/dp_img.svg" alt="" class="dp_img">
+                                <div>
+                                    <h6>joseph smith</h6>
+                                    <p>@josephsmith</p>
+                                </div>
+                            </div>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social_detail">
+                            Lorem ipsum dolor sit amet, <a href=""> @consectetur</a> adipiscing elit. Ut eget porttitor
+                            urna. In gravida, orci vel pretium lobortis, lorem purus auctor mauris, in sollicitudin orci
+                            enim vel enim. Integer consequat ex id tortor molestie accumsan. Quisque egestas, mi sed
+                            porta auctor, turpis sapien dignissim purus.
+                        </div>
+                        <div class="social_footer">
+                            <span> 10:02 PM - JAN 2, 2023</span>
+                            <span><img src="assets/img/icon_share.svg" alt=""> open tweet</span>
+                        </div>
+                    </div>
+                    <div class="social_box">
+                        <div class="profile_row">
+                            <div class="d-flex gap-2 align-items-center ms-2">
+                                <img src="assets/img/dp_img.svg" alt="" class="dp_img">
+                                <div>
+                                    <h6>joseph smith</h6>
+                                    <p>@josephsmith</p>
+                                </div>
+                            </div>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social_detail">
+                            Lorem ipsum dolor sit amet, <a href=""> @consectetur</a> adipiscing elit. Ut eget porttitor
+                            urna. In gravida, orci vel pretium lobortis, lorem purus auctor mauris, in sollicitudin orci
+                            enim vel enim. Integer consequat ex id tortor molestie accumsan. Quisque egestas, mi sed
+                            porta auctor, turpis sapien dignissim purus.
+                        </div>
+                        <div class="social_footer">
+                            <span> 10:02 PM - JAN 2, 2023</span>
+                            <span><img src="assets/img/icon_share.svg" alt=""> open tweet</span>
+                        </div>
+                    </div>
+                    <div class="social_box">
+                        <div class="profile_row">
+                            <div class="d-flex gap-2 align-items-center ms-2">
+                                <img src="assets/img/dp_img.svg" alt="" class="dp_img">
+                                <div>
+                                    <h6>joseph smith</h6>
+                                    <p>@josephsmith</p>
+                                </div>
+                            </div>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social_detail">
+                            Lorem ipsum dolor sit amet, <a href=""> @consectetur</a> adipiscing elit. Ut eget porttitor
+                            urna. In gravida, orci vel pretium lobortis, lorem purus auctor mauris, in sollicitudin orci
+                            enim vel enim. Integer consequat ex id tortor molestie accumsan. Quisque egestas, mi sed
+                            porta auctor, turpis sapien dignissim purus.
+                        </div>
+                        <div class="social_footer">
+                            <span> 10:02 PM - JAN 2, 2023</span>
+                            <span><img src="assets/img/icon_share.svg" alt=""> open tweet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- become Seller start  -->
+    <section class="become_seller selling_platforms">
+        <div class="container">
+            <h5>become a <span>seller?</span></h5>
+            <div class="selling_inner">
+                <div class="selling_box selling_box1">
+                    <div class="selling_img">
+                        <img src="assets/img/eye.svg" alt="">
+                    </div>
+                    <h4>boost your visibility</h4>
+                    <p>reach new customers with our global presence</p>
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porttitor urna. In gravida,
+                        orci .</h6>
+                </div>
+                <div class="selling_box selling_box2">
+                    <div class="selling_img">
+                        <img src="assets/img/sell_more.svg" alt="">
+                    </div>
+                    <h4>sell more</h4>
+                    <p>buyers love our seamless checkout experience </p>
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porttitor urna. In gravida,
+                        orci .</h6>
+                </div>
+                <div class="selling_box">
+                    <div class="selling_img">
+                        <img src="assets/img/floating_star.svg" alt="">
+                    </div>
+                    <h4>you do you</h4>
+                    <p>we take care of the rest </p>
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget porttitor urna. In gravida,
+                        orci .</h6>
+                </div>
+            </div>
+            <h2 class="getstarted">
+                get started for free in seconds...
+            </h2>
+            <a href="" class="flex_align main_btn">get started</a>
+        </div>
+    </section>
+    <!-- become Seller end -->
+    <!-- footer start  -->
+    <footer class="footer_wrap">
+        <div class="container">
+            <div class="footer_inner">
+                    <div class="mainLogo_coontent">
+                        <div class="main_logo">
+                            <img src="assets/img/main_logo.svg" alt="">
+                        </div>
+                        <h1>
+                            the marketplace for <br> <span>digital downloads</span>
+                        </h1>
+                    </div>
+                <!-- <div class="col-lg-8">
+                    <div class="footer_content">
+                        <div>
+                            <div class="footer_title">information</div>
+                            <a href="">
+                                <h6>Privacy</h6>
+                            </a>
+                            <a href="">
+                                <h6>FAQ</h6>
+                            </a>
+                            <a href="">
+                                <h6>Terms of use</h6>
+                            </a>
+                            <a href="">
+                                <h6>News</h6>
+                            </a>
+                        </div>
+                        <div>
+                            <div class="footer_title">tools</div>
+                            <a href="">
+                                <h6>Desktop uploader</h6>
+                            </a>
+                            <a href="">
+                                <h6>Links</h6>
+                            </a>
+                            <a href="">
+                                <h6>Proof of payment</h6>
+                            </a>
+                            <a href="">
+                                <h6>Banners</h6>
+                            </a>
+                        </div>
+                        <div>
+                            <div class="footer_title">Contact us</div>
+                            <a href="">
+                                <h6>Contact us</h6>
+                            </a>
+                            <a href="">
+                                <h6>Help center</h6>
+                            </a>
+                            <a href="">
+                                <h6>Become a seller</h6>
+                            </a>
+                            <a href="">
+                                <h6>Chat support</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="footer_links">
+                    <div class="footer_title">information</div>
+                    <a href="">
+                        <h6>Privacy</h6>
+                    </a>
+                    <a href="">
+                        <h6>FAQ</h6>
+                    </a>
+                    <a href="">
+                        <h6>Terms of use</h6>
+                    </a>
+                    <a href="">
+                        <h6>News</h6>
+                    </a>
+                </div>
+                <div class="footer_links">
+                    <div class="footer_title">tools</div>
+                    <a href="">
+                        <h6>Desktop uploader</h6>
+                    </a>
+                    <a href="">
+                        <h6>Links</h6>
+                    </a>
+                    <a href="">
+                        <h6>Proof of payment</h6>
+                    </a>
+                    <a href="">
+                        <h6>Banners</h6>
+                    </a>
+                </div>
+                <div class="footer_links">
+                    <div class="footer_title">Contact us</div>
+                    <a href="">
+                        <h6>Contact us</h6>
+                    </a>
+                    <a href="">
+                        <h6>Help center</h6>
+                    </a>
+                    <a href="">
+                        <h6>Become a seller</h6>
+                    </a>
+                    <a href="">
+                        <h6>Chat support</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_last text-center">
+            2023@ File.ForSale. All rights reserved.
+        </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/jquery3.3.1.min.js"></script>
+    <script src="assets/js/slick-carousel1.9.0.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
